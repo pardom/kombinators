@@ -1,0 +1,11 @@
+
+### Intellij ###
+.idea
+out/
+
+### macOS ###
+.DS_Store
+
+### Gradle ###
+.gradle
+/build/
