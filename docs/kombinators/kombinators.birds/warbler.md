@@ -4,5 +4,5 @@
 
 `fun <A, B> warbler(): ((`[`A`](warbler.md#A)`) -> (`[`A`](warbler.md#A)`) -> `[`B`](warbler.md#B)`) -> (`[`A`](warbler.md#A)`) -> `[`B`](warbler.md#B)
 
-W combinator - warbler - elementary duplicator
+W combinator
 

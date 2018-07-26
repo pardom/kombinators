@@ -2,7 +2,7 @@
 
 # kite
 
-`fun <A, B> kite(): (`[`A`](kite.md#A)`) -> (`[`B`](kite.md#B)`) -> `[`B`](kite.md#B)
+`fun <B> kite(): (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?) -> (`[`B`](kite.md#B)`) -> `[`B`](kite.md#B)
 
-KI combinator - kite
+KI combinator
 

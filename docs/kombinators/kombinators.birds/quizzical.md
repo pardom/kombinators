@@ -4,5 +4,5 @@
 
 `fun <A, B, C> quizzical(): (`[`A`](quizzical.md#A)`) -> ((`[`B`](quizzical.md#B)`) -> `[`C`](quizzical.md#C)`) -> ((`[`A`](quizzical.md#A)`) -> `[`B`](quizzical.md#B)`) -> `[`C`](quizzical.md#C)
 
-Q2 combinator - quizzical bird
+Q2 combinator
 

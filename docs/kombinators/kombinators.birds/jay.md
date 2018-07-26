@@ -4,5 +4,5 @@
 
 `fun <A, B> jay(): ((`[`A`](jay.md#A)`) -> (`[`B`](jay.md#B)`) -> `[`B`](jay.md#B)`) -> (`[`A`](jay.md#A)`) -> (`[`B`](jay.md#B)`) -> (`[`A`](jay.md#A)`) -> `[`B`](jay.md#B)
 
-J combinator - jay
+J combinator
 

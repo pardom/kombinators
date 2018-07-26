@@ -1,7 +1,7 @@
 package kombinators.birds
 
 /**
- * KI combinator - kite
+ * KI combinator
  */
-fun <A, B> kite(): (A) -> (B) -> B =
+fun <B> kite(): (Any?) -> (B) -> B =
     { _ -> { b -> b } }

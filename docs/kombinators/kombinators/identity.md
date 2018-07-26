@@ -4,5 +4,11 @@
 
 `fun <A> identity(): (`[`A`](identity.md#A)`) -> `[`A`](identity.md#A)
 
-I combinator - identity bird / idiot bird
+Identity function.
+
+Example:
+
+``` kotlin
+identity<String>()("bird") // bird
+```
 

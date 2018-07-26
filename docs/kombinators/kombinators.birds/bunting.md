@@ -4,5 +4,5 @@
 
 `fun <A, B, C, D, E> bunting(): ((`[`D`](bunting.md#D)`) -> `[`E`](bunting.md#E)`) -> ((`[`A`](bunting.md#A)`) -> (`[`B`](bunting.md#B)`) -> (`[`C`](bunting.md#C)`) -> `[`D`](bunting.md#D)`) -> (`[`A`](bunting.md#A)`) -> (`[`B`](bunting.md#B)`) -> (`[`C`](bunting.md#C)`) -> `[`E`](bunting.md#E)
 
-B2 combinator - bunting
+B2 combinator
 

@@ -4,5 +4,5 @@
 
 `fun <A, B, D> vireoStar(): ((`[`B`](vireo-star.md#B)`) -> (`[`A`](vireo-star.md#A)`) -> (`[`B`](vireo-star.md#B)`) -> `[`D`](vireo-star.md#D)`) -> (`[`A`](vireo-star.md#A)`) -> (`[`B`](vireo-star.md#B)`) -> (`[`B`](vireo-star.md#B)`) -> `[`D`](vireo-star.md#D)
 
-V* combinator - vireo once removed
+V* combinator
 

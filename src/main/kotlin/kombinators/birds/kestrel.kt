@@ -1,8 +1,8 @@
 package kombinators.birds
 
 /**
- * K combinator - kestrel
+ * K combinator
  */
-fun <A, B> kestrel(): (A) -> (B) -> A =
+fun <A> kestrel(): (A) -> (Any?) -> A =
     { a -> { _ -> a } }
 

@@ -4,5 +4,12 @@
 
 `infix fun <A, B> ((`[`A`](apply.md#A)`) -> `[`B`](apply.md#B)`).apply(a: `[`A`](apply.md#A)`): `[`B`](apply.md#B)
 
-I* combinator - identity bird once removed
+Extracts the value of a function.
+
+Example:
+
+``` kotlin
+val plus1 = { x: Int -> x + 1 }
+plus1 apply 3 // 4
+```
 

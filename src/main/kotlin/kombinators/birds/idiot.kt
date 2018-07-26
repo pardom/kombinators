@@ -1,19 +1,19 @@
 package kombinators.birds
 
 /**
- * I combinator - identity bird / idiot bird
+ * I combinator
  */
 fun <A> idiot(): (A) -> A =
     { a -> a }
 
 /**
- * I* combinator - identity bird once removed
+ * I* combinator
  */
 fun <A, B> idiotStar(): ((A) -> B) -> (A) -> B =
     { f -> { a -> f(a) } }
 
 /**
- * I* combinator - identity bird twice removed
+ * I* combinator
  */
 fun <A, B, C> idiotStarStar(): ((A) -> (B) -> C) -> (A) -> (B) -> C =
     { f -> { x -> { y -> f(x)(y) } } }

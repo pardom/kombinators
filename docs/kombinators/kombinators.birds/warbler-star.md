@@ -4,5 +4,5 @@
 
 `fun <A, B, C> warblerStar(): ((`[`A`](warbler-star.md#A)`) -> (`[`B`](warbler-star.md#B)`) -> (`[`B`](warbler-star.md#B)`) -> `[`C`](warbler-star.md#C)`) -> (`[`A`](warbler-star.md#A)`) -> (`[`B`](warbler-star.md#B)`) -> `[`C`](warbler-star.md#C)
 
-W* combinator - warbler once removed
+W* combinator
 

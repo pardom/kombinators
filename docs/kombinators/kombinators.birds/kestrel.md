@@ -2,7 +2,7 @@
 
 # kestrel
 
-`fun <A, B> kestrel(): (`[`A`](kestrel.md#A)`) -> (`[`B`](kestrel.md#B)`) -> `[`A`](kestrel.md#A)
+`fun <A> kestrel(): (`[`A`](kestrel.md#A)`) -> (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?) -> `[`A`](kestrel.md#A)
 
-K combinator - kestrel
+K combinator
 
