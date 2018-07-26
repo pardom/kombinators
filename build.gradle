@@ -15,6 +15,8 @@ dokka {
     outputFormat = 'gfm'
     outputDirectory = "docs"
 
+    includes = ['src/main/Module.md']
+
     linkMapping {
         dir = "src/main/kotlin"
         url = "https://github.com/pardom/kombinators/tree/master/src/main/kotlin"

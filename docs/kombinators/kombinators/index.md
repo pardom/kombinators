@@ -2,6 +2,8 @@
 
 ## Package kombinators
 
+Common combinators
+
 ### Extensions for External Classes
 
 | Name | Summary |

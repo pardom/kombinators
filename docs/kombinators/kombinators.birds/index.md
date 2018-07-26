@@ -2,6 +2,8 @@
 
 ## Package kombinators.birds
 
+Bird monickered combinators
+
 ### Functions
 
 | Name | Summary |

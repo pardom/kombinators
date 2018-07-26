@@ -1,5 +1,7 @@
 
 
+## Kombinators
+
 ### All Types
 
 | Name | Summary |
