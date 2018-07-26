@@ -3,13 +3,14 @@ package kombinators
 /**
  * B3 combinator or function composition (for three functions)
  *
- * ### Example:
+ * Example:
  *
- * ```
+ * ```kotlin
  * val flip = { x -> x * -1 }
  * val times2 = { x -> x * 2 }
  * val minus1 = { x -> x - 1 }
  * val minus1times2flip = becard<Int, Int, Int, Int>()(flip)(times2)(minus1)
+ *
  * minus1times2fip(3) // -4
  * ```
  */
