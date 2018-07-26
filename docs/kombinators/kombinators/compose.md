@@ -6,6 +6,8 @@
 
 Function composition.
 
+The infix version of this function is preferred as is supports type inference.
+
 Example:
 
 ``` kotlin

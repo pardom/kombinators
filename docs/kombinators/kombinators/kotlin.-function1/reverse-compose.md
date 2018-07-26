@@ -11,7 +11,7 @@ Example:
 ``` kotlin
 val times2 = { x: Int -> x * 2 }
 val minus1 = { x: Int -> x - 1 }
-val minus1times2 = minus1 compose times2
+val minus1times2 = minus1 reverseCompose times2
 
 minus1times2(3) // 4
 ```

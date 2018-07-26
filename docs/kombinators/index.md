@@ -2,6 +2,8 @@
 
 ## Kombinators
 
+Functional combinators for Kotlin.
+
 ### Packages
 
 | Name | Summary |

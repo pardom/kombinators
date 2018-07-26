@@ -6,6 +6,8 @@ import kombinators.birds.queer
 /**
  * Function composition.
  *
+ * The infix version of this function is preferred as is supports type inference.
+ *
  * Example:
  *
  * ```kotlin
@@ -36,12 +38,14 @@ infix fun <A, B, C> ((B) -> C).compose(g: ((A) -> B)) = bluebird<A, B, C>()(this
 /**
  * Reversed function composition.
  *
+ * The infix version of this function is preferred as is supports type inference.
+ *
  * Example:
  *
  * ```kotlin
  * val times2 = { x: Int -> x * 2 }
  * val minus1 = { x: Int -> x - 1 }
- * val minus1times2 = compose<Int, Int, Int>()(minus1)(times2)
+ * val minus1times2 = reverseCompose <Int, Int, Int>()(minus1)(times2)
  *
  * minus1times2(3) // 4
  * ```
@@ -56,7 +60,7 @@ fun <A, B, C> reverseCompose() = queer<A, B, C>()
  * ```kotlin
  * val times2 = { x: Int -> x * 2 }
  * val minus1 = { x: Int -> x - 1 }
- * val minus1times2 = minus1 compose times2
+ * val minus1times2 = minus1 reverseCompose times2
  *
  * minus1times2(3) // 4
  * ```
