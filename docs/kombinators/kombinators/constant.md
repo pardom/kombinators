@@ -3,6 +3,7 @@
 # constant
 
 `fun <A, B> constant(): (`[`A`](constant.md#A)`) -> (`[`B`](constant.md#B)`) -> `[`A`](constant.md#A)
+`fun <A, B> constant(a: `[`A`](constant.md#A)`): (`[`B`](constant.md#B)`) -> `[`A`](constant.md#A)
 
 K combinator - kestrel
 

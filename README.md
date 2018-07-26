@@ -2,4 +2,4 @@
 
 Functional combinators for Kotlin.
 
-[documentation](docs/kombinators/kombinators/index.md)
+[documentation](docs/kombinators/index.md)
