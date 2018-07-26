@@ -1,9 +1,17 @@
 package kombinators
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// B3 combinator - becard
-
-fun <A, B, C, D> B3(): ((C) -> D) -> ((B) -> C) -> ((A) -> B) -> (A) -> D =
+/**
+ * B3 combinator or function composition (for three functions)
+ *
+ * ### Example:
+ *
+ * ```
+ * val flip = { x -> x * -1 }
+ * val times2 = { x -> x * 2 }
+ * val minus1 = { x -> x - 1 }
+ * val minus1times2flip = becard<Int, Int, Int, Int>()(flip)(times2)(minus1)
+ * minus1times2fip(3) // -4
+ * ```
+ */
+fun <A, B, C, D> becard(): ((C) -> D) -> ((B) -> C) -> ((A) -> B) -> (A) -> D =
     { f -> { g -> { h -> { x -> f(g(h(x))) } } } }
-
-fun <A, B, C, D> becard() = B3<A, B, C, D>()

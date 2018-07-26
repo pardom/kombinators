@@ -1,13 +1,12 @@
 package kombinators
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// T combinator - thrush
-
-fun <A, B> T(): (A) -> ((A) -> B) -> B =
+/**
+ * T combinator - thrush
+ */
+fun <A, B> thrush(): (A) -> ((A) -> B) -> B =
     { x -> { f -> f(x) } }
 
-fun <A, B> thrush() = T<A, B>()
-
-fun <A, B> reverseApplicator() = T<A, B>()
-
-fun <A, B> reverseApply() = T<A, B>()
+/**
+ * T combinator - thrush
+ */
+fun <A, B> reverseApply() = thrush<A, B>()

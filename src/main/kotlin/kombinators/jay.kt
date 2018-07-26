@@ -1,25 +1,19 @@
 package kombinators
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// J combinator - jay
-
-fun <A, B> J(): ((A) -> (B) -> B) -> (A) -> (B) -> (A) -> B =
+/**
+ * J combinator - jay
+ */
+fun <A, B> jay(): ((A) -> (B) -> B) -> (A) -> (B) -> (A) -> B =
     { f -> { x -> { y -> { z -> f(x)(f(z)(y)) } } } }
 
-fun <A, B> jay() = J<A, B>()
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// Alternative J combinator - jalt
-
-fun <A, B, C> JAlt(): ((A) -> C) -> (A) -> (B) -> C =
+/**
+ * Alternative J combinator - jalt
+ */
+fun <A, B, C> jalt(): ((A) -> C) -> (A) -> (B) -> C =
     { f -> { x -> { _ -> f(x) } } }
 
-fun <A, B, C> jAlt() = JAlt<A, B, C>()
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// J' combinator - jalt
-
-fun <A, B, C, D> JPrime(): ((A) -> (B) -> D) -> (A) -> (B) -> (C) -> D =
+/**
+ * J' combinator - jalt
+ */
+fun <A, B, C, D> jaltPrime(): ((A) -> (B) -> D) -> (A) -> (B) -> (C) -> D =
     { f -> { x -> { y -> { _ -> f(x)(y) } } } }
-
-fun <A, B, C, D> jaltPrime() = JPrime<A, B, C, D>()

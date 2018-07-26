@@ -1,12 +1,26 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.51"
+        classpath "org.jetbrains.dokka:dokka-gradle-plugin:0.9.17"
     }
 }
 
 apply plugin: "kotlin"
+apply plugin: 'org.jetbrains.dokka'
+
+dokka {
+    outputFormat = 'html'
+    outputDirectory = "$buildDir/kdoc"
+
+    linkMapping {
+        dir = "src/main/kotlin"
+        url = "https://github.com/pardom/kombinators/blob/master/src/main/kotlin"
+    }
+}
+
+build.dependsOn dokka
 
 apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
