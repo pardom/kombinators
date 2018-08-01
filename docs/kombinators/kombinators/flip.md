@@ -2,7 +2,7 @@
 
 # flip
 
-`fun <A, B, C> flip(): ((`[`A`](flip.md#A)`) -> (`[`B`](flip.md#B)`) -> `[`C`](flip.md#C)`) -> (`[`B`](flip.md#B)`) -> (`[`A`](flip.md#A)`) -> `[`C`](flip.md#C)
+`fun <A, B, C> flip(): ((`[`A`](flip.md#A)`) -> (`[`B`](flip.md#B)`) -> `[`C`](flip.md#C)`) -> (`[`B`](flip.md#B)`) -> (`[`A`](flip.md#A)`) -> `[`C`](flip.md#C) [(source)](https://github.com/pardom/kombinators/tree/master/src/main/kotlin/kombinators/flip.kt#L17)
 
 flip f takes its (first) two arguments in the reverse order of f.
 
@@ -15,7 +15,7 @@ val concat = { x -> { y -> x + y } }
 flip<String, String, String>()(concat)("word")("hello") // helloworld
 ```
 
-`fun <A, B, C> flip(f: (`[`A`](flip.md#A)`) -> (`[`B`](flip.md#B)`) -> `[`C`](flip.md#C)`): (`[`B`](flip.md#B)`) -> (`[`A`](flip.md#A)`) -> `[`C`](flip.md#C)
+`fun <A, B, C> flip(f: (`[`A`](flip.md#A)`) -> (`[`B`](flip.md#B)`) -> `[`C`](flip.md#C)`): (`[`B`](flip.md#B)`) -> (`[`A`](flip.md#A)`) -> `[`C`](flip.md#C) [(source)](https://github.com/pardom/kombinators/tree/master/src/main/kotlin/kombinators/flip.kt#L29)
 
 flip f takes its (first) two arguments in the reverse order of f.
 

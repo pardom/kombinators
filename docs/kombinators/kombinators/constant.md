@@ -2,7 +2,7 @@
 
 # constant
 
-`fun <A> constant(): (`[`A`](constant.md#A)`) -> (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?) -> `[`A`](constant.md#A)
+`fun <A> constant(): (`[`A`](constant.md#A)`) -> (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?) -> `[`A`](constant.md#A) [(source)](https://github.com/pardom/kombinators/tree/master/src/main/kotlin/kombinators/constant.kt#L16)
 
 constant()(x) is a unary function which evaluates to x for all inputs.
 
@@ -14,7 +14,7 @@ Example:
 constant<String>()("bird")("cat") // bird
 ```
 
-`fun <A> constant(a: `[`A`](constant.md#A)`): (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?) -> `[`A`](constant.md#A)
+`fun <A> constant(a: `[`A`](constant.md#A)`): (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?) -> `[`A`](constant.md#A) [(source)](https://github.com/pardom/kombinators/tree/master/src/main/kotlin/kombinators/constant.kt#L27)
 
 constant(x) is a unary function which evaluates to x for all inputs.
 

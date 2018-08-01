@@ -2,7 +2,7 @@
 
 # reverseCompose
 
-`infix fun <A, B, C> ((`[`A`](reverse-compose.md#A)`) -> `[`B`](reverse-compose.md#B)`).reverseCompose(g: (`[`B`](reverse-compose.md#B)`) -> `[`C`](reverse-compose.md#C)`): (`[`A`](reverse-compose.md#A)`) -> `[`C`](reverse-compose.md#C)
+`infix fun <A, B, C> ((`[`A`](reverse-compose.md#A)`) -> `[`B`](reverse-compose.md#B)`).reverseCompose(g: (`[`B`](reverse-compose.md#B)`) -> `[`C`](reverse-compose.md#C)`): (`[`A`](reverse-compose.md#A)`) -> `[`C`](reverse-compose.md#C) [(source)](https://github.com/pardom/kombinators/tree/master/src/main/kotlin/kombinators/compose.kt#L64)
 
 Function composition from left to right.
 

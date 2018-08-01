@@ -2,7 +2,7 @@
 
 # compose
 
-`infix fun <A, B, C> ((`[`B`](compose.md#B)`) -> `[`C`](compose.md#C)`).compose(g: (`[`A`](compose.md#A)`) -> `[`B`](compose.md#B)`): (`[`A`](compose.md#A)`) -> `[`C`](compose.md#C)
+`infix fun <A, B, C> ((`[`B`](compose.md#B)`) -> `[`C`](compose.md#C)`).compose(g: (`[`A`](compose.md#A)`) -> `[`B`](compose.md#B)`): (`[`A`](compose.md#A)`) -> `[`C`](compose.md#C) [(source)](https://github.com/pardom/kombinators/tree/master/src/main/kotlin/kombinators/compose.kt#L34)
 
 Function composition.
 

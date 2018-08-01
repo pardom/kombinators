@@ -18,9 +18,9 @@ dokka {
     includes = ['src/main/Module.md']
 
     linkMapping {
-        dir = "src/main/kotlin"
-        url = "https://github.com/pardom/kombinators/tree/master/src/main/kotlin"
-        suffix = "#L"
+        dir = "${projectDir}/src/main/kotlin"
+        url = 'https://github.com/pardom/kombinators/tree/master/src/main/kotlin'
+        suffix = '#L'
     }
 }
 

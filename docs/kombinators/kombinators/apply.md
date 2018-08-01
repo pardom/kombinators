@@ -2,7 +2,7 @@
 
 # apply
 
-`fun <A, B> apply(): ((`[`A`](apply.md#A)`) -> `[`B`](apply.md#B)`) -> (`[`A`](apply.md#A)`) -> `[`B`](apply.md#B)
+`fun <A, B> apply(): ((`[`A`](apply.md#A)`) -> `[`B`](apply.md#B)`) -> (`[`A`](apply.md#A)`) -> `[`B`](apply.md#B) [(source)](https://github.com/pardom/kombinators/tree/master/src/main/kotlin/kombinators/apply.kt#L18)
 
 Extracts the value of a function.
 
